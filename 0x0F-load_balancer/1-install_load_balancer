@@ -7,7 +7,7 @@ sudo apt-get -y install haproxy
 sudo chown  $USER:$USER /etc/haproxy/haproxy.cfg
 
 echo "
-frontend estebanweb
+frontend zackkh
     bind *:80
     mode http
     default_backend app
