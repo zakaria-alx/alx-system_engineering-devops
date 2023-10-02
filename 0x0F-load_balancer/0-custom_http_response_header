@@ -22,7 +22,7 @@ echo "server {
       internal;
    }
 
-   add_header X-Served-By "$HOSTNAME";
+   add_header X-Served-By '$HOSTNAME';
 }" > default
 
 sudo mv -f default /etc/nginx/sites-available/default
